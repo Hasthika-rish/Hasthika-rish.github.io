@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #555;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+.branches {
+    padding: 20px;
+}
+
+.branch {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.branch img {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.branch-details {
+    flex-grow: 1;
+}
+
+.branch button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.branch button:hover {
+    background-color: #555;
+}
